@@ -1,0 +1,75 @@
+body {
+  background-color: #d72631;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nav Bar Tabs */
+.navigation-bar {
+  background-color: #077b8a;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.box {
+  /* background-color: tan; */
+  display: inline;
+  width: 50%;
+  float: left;
+}
+
+ul, li{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    display: inline;
+}
+
+.box li {
+  list-style-type: none;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  text-shadow: grey;
+  background-color: whitesmoke;
+
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #8ca09a;
+}
+
+/* Social Media Icons */
+.icons {
+  background-color: orange;
+  display: inline;
+  width: 50%;
+  float: left;
+}
+
+.icons li {
+  list-style-type: none;
+  float: right;
+  padding: 5px;
+  /* display: inline; */
+}
+
+.icons img {
+  width: 20px;
+  height: 20px ;
+}
+/* .logo img{
+    width: 20px;
+    height: 20px;
+    background-color: tomato;
+    float: right; */
+
+}
