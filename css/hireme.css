@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  body {
+    background-color: orange;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/Wavy-Kid.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+
+  .navigation-bar {
+    background-color: #077b8a;
+    width: 100%;
+    height: 180px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.navigation-bar .box {
+    /* background-color: tan; */
+    display: inline;
+    width: 70%;
+    float: left;
+    margin: 0px;
+  }
+  
+  ul,
+  li {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    display: inline;
+  }
+  
+  .box li {
+    list-style-type: none;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-shadow: grey;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: #8ca09a;
+    border-radius: 30%;
+    cursor:wait;
+  }
+  
+  /* Social Media Icons */
+  .icons {
+    /* background-color: orange; */
+    display: inline;
+    width: 20%;
+    float: right;
+    /* margin: 1px; */
+  }
+  
+  .icons li {
+    list-style-type: none;
+    padding: top 5px;
+    padding: left 0px;
+    padding-right: 10px;
+    /* margin: 1px; */
+  }
+  
+  .icons img {
+    width: 20px;
+    height: 20px;
+  }
+  .logo {
+    /* background-color: white; */
+    float: left;
+    display: inline;
+  }
+  .logo img {
+    width: 36px;
+    height: 36px;
+    border-radius: 36%;
+  }
+  
+  .under-text {
+    padding: 5px;
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 8px;
+  }
+  .text-align {
+    text-align: justify;
+    display: block;
+    padding-left: 10px;
+    padding-top: 40px;
+    width: 40%;
+    line-height: 1.2;
+  }
+  
+  .clearfix {
+    overflow: auto;
+  }
